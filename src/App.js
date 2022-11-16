@@ -55,8 +55,11 @@ function App() {
                 <Tile
 
                     title="THE BRAND"
-                    para1="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"
-                    para2="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"/>
+                >
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"</p>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"</p>
+                </Tile>
+
                 <Tile
                     image={brandImg}/>
                 <Tile
@@ -64,7 +67,9 @@ function App() {
                 <Tile
 
                     title="OUR STORY"
-                    para1="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"/>
+                >
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"</p>
+                </Tile>
             </footer>
 
         </>
