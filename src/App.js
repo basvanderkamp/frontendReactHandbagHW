@@ -17,13 +17,13 @@ function App() {
             <nav className={"nav"}>
                 <Button
 
-                    linktext={"to the collection"}/>
+                    linktext="to the collection"/>
                 <Button
 
-                    linktext={"shop all bags"}/>
+                    linktext="shop all bags"/>
                 <Button
                     disableBut={true}
-                    linktext={"pre-orders"}/>
+                    linktext="pre-orders"/>
 
             </nav>
             <h1>Handbags & Purses</h1>
@@ -56,8 +56,8 @@ function App() {
 
                     title="THE BRAND"
                 >
-                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"</p>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"</p>
+                <p className={"section p"}>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"</p>
+                <p className={"section p"}>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"</p>
                 </Tile>
 
                 <Tile
@@ -68,7 +68,7 @@ function App() {
 
                     title="OUR STORY"
                 >
-                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"</p>
+                <p className={"section p"}>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem eveniet ut. Animi asperiores autem ipsam molestiae odit optio placeat quasi quisquam ratione veniam! Assumenda consequuntur dignissimos fuga illo molestiae?"</p>
                 </Tile>
             </footer>
 

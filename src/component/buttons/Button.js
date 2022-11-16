@@ -5,7 +5,11 @@ function Button({linktext, disableBut}) {
         console.log(linktext)
     }
     return (
-        <button disabled={disableBut} type="button" onClick={clickHandler}>{linktext}</button>
+        <button
+            disabled={disableBut}
+            type="button"
+            onClick={clickHandler}>{linktext}
+        </button>
 
     )
 }
