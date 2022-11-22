@@ -12,13 +12,14 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 1000px;
 
 }
 
 section {
     background-color: #F6F3EF;
     font-size: 10px;
-    height: 400px;
+    height: 600px;
     overflow: hidden;
     flex-basis: 350px;
     flex-grow: 1;
@@ -29,6 +30,7 @@ section {
     align-items: center;
 
 }
+
 
 section p {
     max-width: 200px;

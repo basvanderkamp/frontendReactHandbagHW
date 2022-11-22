@@ -1,13 +1,11 @@
 import React from 'react';
 
-function Tile({image, title, para1, para2}) {
+function Tile({image, title, children}) {
     return(
         <section className={"section"}>
-            {image &&<img src={image} alt={title}/>}
+            {image &&<img className={"section img"} src={image} alt={title}/>}
             <h2>{title}</h2>
-            <p className={"section p"}>{para1}</p>
-            <p>{para2}</p>
-
+            {children}
         </section>
     )
 }
